@@ -11,8 +11,8 @@ if (num >= 0) {
     printf("A raiz quadrada do numero e: %f", num);
 }
 else {
-    num = pow(num, 2);
-    printf("o quadrado do numero: %lf",num);
+    num = round(pow(num, 2));
+    printf("o quadrado do numero: %.2f",num);
 }
 
 return 0;}
